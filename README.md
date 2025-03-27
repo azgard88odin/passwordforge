@@ -65,6 +65,7 @@ python passwordForge.py -w your_wordlist.txt -r your_rules.pfrule -o transformed
 
 ### Character Replacement
 
+Rules are saved in a .pfrule file. This is done to avoid confusion with john-the-ripper and hashcat rule files.
 The most basic form of rule is character replacement:
 
 ```
@@ -263,4 +264,3 @@ Enter a ruleset (or 'done' to finish):
 ---
 
 PasswordForge makes it easy to create targeted wordlist variations with minimal effort. By mastering the rule syntax and combining transformations, you can generate sophisticated password variations to improve your security testing process.
-```markdown
