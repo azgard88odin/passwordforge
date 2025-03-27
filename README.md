@@ -152,6 +152,7 @@ Given a word like "password":
 |------|--------|-------------|
 | `a 1 @` | `p@ssword` | First 'a' becomes '@' |
 | `o 1 0 \|\| r 1 R` | `passw0Rd` | First 'o' becomes '0', first 'r' becomes 'R' |
+| `s 2 upper \|\| d 1 upper` | `pasSworD` | Second 's' captilized, First 'd' captilized |
 | `pos 1 upper` | `Password` | First character capitalized |
 | `s 1 $ \|\| s 2 5` | `pa$5word` | First 's' becomes '$', second 's' becomes '5' |
 
