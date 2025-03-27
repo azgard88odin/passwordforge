@@ -1,6 +1,6 @@
 # PasswordForge
 
-A powerful tool for transforming wordlists using customizable character replacement rules.
+A powerful tool for transforming wordlists using customizable and instance specific character replacement rules.
 
 ## Introduction
 
