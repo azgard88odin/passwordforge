@@ -227,7 +227,7 @@ Enter a ruleset (or 'done' to finish):
    - Generate common password variations to improve security awareness
 
 2. **Penetration Testing**
-   - Generate targeted wordlists for specific organizations
+   - Generate targeted wordlists for specific organizations and password policies
    - Create custom dictionaries for brute-force attacks
 
 3. **Data Generation**
