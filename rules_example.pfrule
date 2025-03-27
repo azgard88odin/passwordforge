@@ -1,0 +1,29 @@
+# Example ruleset file
+# Format: character instance replacement
+# instance can be a number (1, 2, etc.) or "all"
+# Multiple rules can be placed on a single line separated by ||
+# Use \|| if you need the literal || in a rule
+
+# Single rules
+o 1 0
+e all 3
+
+# Multiple rules per line
+s 2 $ || a 1 @ || i all !
+
+# Rule combinations - variant 1
+o 1 0 || e 1 3 || s 1 $
+
+# Rule combinations - variant 2
+o 2 0 || e all 3 || s 2 $
+
+# Example with escaped delimiter
+t 1 \|| || t 2 T
+
+# Case transformation examples
+pos 1 upper
+g 2 upper || o 2 upper
+s 1 upper || s 2 lower || a 1 @
+
+# Mixed case transformations and replacements
+o 1 0 || e 1 upper || s 1 $

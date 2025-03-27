@@ -1,0 +1,12 @@
+Original Word | Transformed Word | Ruleset
+------------- | --------------- | ------
+goatgogotestii | g0atgogotestii | o 1 0
+goatgogotestii | goatgogot3stii | e all 3
+goatgogotestii | go@tgogotest!! | s 2 $ || a 1 @ || i all !
+goatgogotestii | g0atgogot3$tii | o 1 0 || e 1 3 || s 1 $
+goatgogotestii | goatg0got3stii | o 2 0 || e all 3 || s 2 $
+goatgogotestii | goa||gogotesTii | t 1 || || t 2 T
+goatgogotestii | Goatgogotestii | pos 1 upper
+goatgogotestii | goatGOgotestii | g 2 upper || o 2 upper
+goatgogotestii | go@tgogoteStii | s 1 upper || s 2 lower || a 1 @
+goatgogotestii | g0atgogotE$tii | o 1 0 || e 1 upper || s 1 $
